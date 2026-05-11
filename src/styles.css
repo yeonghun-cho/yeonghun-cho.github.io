@@ -1,21 +1,21 @@
 :root {
-  color: #142033;
-  background: #f6f8f7;
+  color: #0d2318;
+  background: #eef7f0;
   font-family:
     Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
-  --ink: #142033;
-  --muted: #586277;
-  --surface: #f7faf8;
+  --ink: #0d2318;
+  --muted: #557064;
+  --surface: #f4fbf6;
   --surface-strong: #ffffff;
-  --line: #d7e0dd;
-  --green: #2f6f63;
-  --blue: #315f8d;
-  --rust: #9b4e2f;
-  --gold: #c99738;
-  --shadow: 0 20px 55px rgba(18, 32, 42, 0.1);
+  --line: #c9ded2;
+  --green: #1d7a4e;
+  --blue: #2f7d62;
+  --rust: #3f8a53;
+  --gold: #88a83e;
+  --shadow: 0 20px 55px rgba(12, 45, 31, 0.11);
 }
 
 * {
@@ -30,7 +30,7 @@ body {
   margin: 0;
   min-width: 320px;
   background:
-    linear-gradient(180deg, rgba(255, 255, 255, 0.72), rgba(246, 248, 247, 0.92)),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.7), rgba(238, 247, 240, 0.94)),
     url("https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1800&q=80");
   background-attachment: fixed;
   background-position: center top;
@@ -48,7 +48,7 @@ button {
 
 .site-shell {
   min-height: 100vh;
-  background: rgba(246, 248, 247, 0.88);
+  background: rgba(238, 247, 240, 0.9);
 }
 
 .site-header {
@@ -86,7 +86,7 @@ button {
   flex: 0 0 auto;
   border-radius: 999px;
   object-fit: cover;
-  box-shadow: 0 0 0 1px rgba(21, 32, 51, 0.1);
+  box-shadow: 0 0 0 1px rgba(13, 59, 39, 0.12);
 }
 
 .nav-links {
@@ -94,7 +94,7 @@ button {
   align-items: center;
   gap: 8px;
   padding: 6px;
-  border: 1px solid rgba(215, 224, 221, 0.82);
+  border: 1px solid rgba(176, 205, 187, 0.82);
   border-radius: 999px;
   background: rgba(255, 255, 255, 0.78);
 }
@@ -125,15 +125,15 @@ button {
   justify-content: center;
   gap: 8px;
   min-width: 82px;
-  border: 1px solid rgba(21, 32, 51, 0.12);
-  background: var(--ink);
+  border: 1px solid rgba(13, 59, 39, 0.16);
+  background: #0d3b27;
   color: #ffffff;
   cursor: pointer;
   font-weight: 800;
 }
 
 .language-toggle:hover {
-  background: #26344d;
+  background: #17643f;
 }
 
 .hero-section {
@@ -190,7 +190,7 @@ h1 {
 .hero-summary {
   max-width: 760px;
   margin-bottom: 0;
-  color: #3d485c;
+  color: #2e4b3b;
   font-size: 1.16rem;
   line-height: 1.8;
 }
@@ -209,10 +209,10 @@ h1 {
 .signal-item {
   min-height: 92px;
   padding: 18px;
-  border: 1px solid rgba(215, 224, 221, 0.86);
+  border: 1px solid rgba(176, 205, 187, 0.86);
   border-radius: 8px;
   background: rgba(255, 255, 255, 0.84);
-  box-shadow: 0 12px 35px rgba(18, 32, 42, 0.06);
+  box-shadow: 0 12px 35px rgba(12, 45, 31, 0.07);
 }
 
 .signal-item dt {
@@ -235,11 +235,11 @@ h1 {
 }
 
 .content-band:nth-of-type(odd) {
-  background: rgba(239, 246, 243, 0.94);
+  background: rgba(229, 244, 234, 0.95);
 }
 
 .about-band {
-  border-top: 1px solid rgba(215, 224, 221, 0.8);
+  border-top: 1px solid rgba(176, 205, 187, 0.8);
 }
 
 .projects-band {
@@ -270,7 +270,7 @@ h1 {
 }
 
 .section-lede {
-  color: #3c4658;
+  color: #31513f;
   font-size: 1.08rem;
   line-height: 1.8;
 }
@@ -282,7 +282,7 @@ h1 {
 
 .highlight-item {
   padding-bottom: 18px;
-  border-bottom: 1px solid rgba(21, 32, 51, 0.12);
+  border-bottom: 1px solid rgba(13, 59, 39, 0.13);
 }
 
 .highlight-item h3,
@@ -309,7 +309,7 @@ h1 {
 
 .skill-card,
 .project-card {
-  border: 1px solid rgba(215, 224, 221, 0.92);
+  border: 1px solid rgba(176, 205, 187, 0.92);
   border-radius: 8px;
   background: var(--surface-strong);
   box-shadow: var(--shadow);
@@ -328,7 +328,7 @@ h1 {
   height: 44px;
   margin-bottom: 24px;
   border-radius: 8px;
-  background: #e8f0ec;
+  background: #e1f3e7;
   color: var(--green);
 }
 
@@ -345,8 +345,8 @@ h1 {
 .skill-card li,
 .tech-list li {
   border-radius: 999px;
-  background: #edf3f0;
-  color: #4b5364;
+  background: #e8f4ec;
+  color: #315b45;
   font-size: 0.9rem;
   font-weight: 750;
 }
@@ -403,8 +403,8 @@ h1 {
 
 .tech-list li {
   padding: 7px 10px;
-  background: #eef4f5;
-  color: #2c5f71;
+  background: #e2f3e8;
+  color: #236243;
 }
 
 .project-links {
@@ -421,7 +421,7 @@ h1 {
   gap: 8px;
   min-height: 42px;
   padding: 0 14px;
-  border: 1px solid rgba(21, 32, 51, 0.14);
+  border: 1px solid rgba(13, 59, 39, 0.16);
   border-radius: 8px;
   color: var(--ink);
   font-weight: 850;
